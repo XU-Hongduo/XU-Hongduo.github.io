@@ -2,19 +2,3 @@
 # title: XU_Hongduo's homepage
 # description: Welcome to my homepages!
 # description: 欢迎来到我的主页！
-
-<!--<!DOCTYPE html>-->
-<html lang="en">
-<head>
-<!--meta标签是网站声明-->  
-	<meta charset="UTF-8">  
-	<meta name = "keywords" content = "html5"
-	<meta name = "description" content = "h5"
-<!-- title 网页标题-->
-	<title>我的第一个网页</title> 
-</head>
-<!--body代表网页主体-->
-<body>
-	hello，world！
-</body> 
-</html>
