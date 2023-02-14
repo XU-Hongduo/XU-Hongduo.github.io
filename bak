@@ -1,0 +1,15 @@
+body div img {
+    width: 30px;
+    /* padding: 10px; */
+    text-align: center;
+    
+}
+.container {
+    padding: 0px 200px 0px 200px;
+    vertical-align: middle;
+}
+.header {
+    background-color: #DCDCDC; 
+    height: 100px;
+        
+}

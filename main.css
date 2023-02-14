@@ -1,0 +1,159 @@
+html {
+    background: #DCDCDC;
+}
+
+/* .body {
+    width: 1200px;
+    margin: 0px auto;
+} */
+
+/* Top bar */
+
+body div a img {
+    width: 30px;
+    padding: 0px 10px 0px;
+}
+
+.top_word {
+    display: inline;
+    padding-left: 100px;
+    font-family: times;
+    font-size: 20px;
+}
+
+.top_contact {
+    display: inline;
+    padding-left: 888px;
+}
+
+.top {
+    /* background-color:#DCDCDC; */
+    border-bottom: 2px solid #DCDCDC;
+    padding: 10px;
+    vertical-align: middle;
+    /* text-align: center; */
+    background: linear-gradient(white, #DCDCDC);
+}
+
+/* Nav */
+
+.navigation {
+    padding-left: 110px;
+    padding-top: 15px;
+    list-style: none;
+}
+
+nav ul li {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+nav ul li ul {
+    padding-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav {
+    background: linear-gradient(white, #DCDCDC);
+    width: 500px;
+}
+
+
+/* Section main */
+.main .main_left {
+    /* height: 100%; */
+    width: 500px;
+    float: left;
+}
+
+.main .main_right {
+    /* height: 100%; */
+    margin-left: 500px;
+    background-color: white;
+}
+
+
+/* Right Section */
+.right_section {
+    padding: 30px;
+    padding-left: 100px;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+.me {
+    border-radius: 10%;
+    float: right;
+    width: 200px;
+    margin-right: 80px;
+    margin-left: 15px;
+}
+
+.rewards {
+    width: 50%;
+    vertical-align: top;
+    font-family: "EB Garamond",serif;
+    margin-right: 100px;
+}
+
+td {
+    padding-left: 40px;
+    font-family: times;
+}
+
+
+.ry_bot {
+    width:100%;
+    margin-right: 100px;
+    background-color:gray;
+}
+
+.ry_bot_box{
+    width: 100%;
+    height: 275px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgList {
+    animation:rolling 25s linear infinite;
+    animation-play-state: paused;
+    position: absolute;
+    padding: 10px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.imgList a img {
+    width:330px;
+    height: 255px;
+    float: left;
+    margin-right: 10px;
+}
+
+@keyframes rolling {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-85%);
+    }
+}
+
+
+/* footer */
+
+footer {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    background: #ABABAB;
+    color: white;
+    /* border-top: 2px solid #ABABAB; */
+    /* position: relative; */
+    bottom: 0px;
+    width: 100%;
+}
