@@ -120,7 +120,7 @@ td {
 
 .imgList {
     animation:rolling 25s linear infinite;
-    animation-play-state: paused;
+    animation-play-state: running;
     position: absolute;
     padding: 10px;
     margin-right: 100px;
