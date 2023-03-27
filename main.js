@@ -20,11 +20,11 @@ function showabstract() {
 }
 
 function startanimation() {
-    document.getElementById("animation").style.animationPlayState = "running";
+    document.getElementById("animation").style.animationPlayState = "paused";
 }
 
 function stopanimation() {
-    document.getElementById("animation").style.animationPlayState = "paused";
+    document.getElementById("animation").style.animationPlayState = "running";
 }
 
 function dowechat() {
